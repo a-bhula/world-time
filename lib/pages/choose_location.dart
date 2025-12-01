@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
 class ChooseLocation extends StatefulWidget {
+  const ChooseLocation({super.key});
+
   @override
-  _ChooseLocationState createState() => _ChooseLocationState();
+  ChooseLocationState createState() => ChooseLocationState();
 }
 
-class _ChooseLocationState extends State<ChooseLocation> {
+class ChooseLocationState extends State<ChooseLocation> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
